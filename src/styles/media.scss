@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+    .header {
+        &__menu {
+            background-color: #000000cf;
+            z-index: 2;
+        }
+        &__block {
+            margin-top: 150px;
+        }
+        &__subtext {
+            font-size: 30px;
+        }
+        .nav-link {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .nav-link:before {
+            content: none;
+        }
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        .navbar-nav {
+            margin-top: 24px;
+        }
+    }
+    .project__subtext {
+        margin-bottom: 16px;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+    .img-none {
+        display: none;
+    }
+}
+
+@media (max-width: 995px) {
+    .video-block {
+        height: auto;
+        &__wrapper img {
+            display: none;
+        }
+        &__btn {
+            position: relative;
+            padding-right: 35px;
+        }
+    }
+    .contacts {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .standart-block {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .work-block {
+        padding-bottom: 80px;
+    }
+    .our-progect__wrapper {
+        margin-top: -60px;
+    }
+    .our-works {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 501px) {
+    .work-block__caption {
+        font-size: 29px;
+        margin-top: 36px;
+    }
+    .contacts {
+        &__control-wrapper {
+            display: block;
+        }
+        &__btn {
+            border-radius: 30px !important;
+            margin-top: 32px;
+        }
+        &__control {
+            width: 100%;
+            border-radius: 30px;
+        }
+    }
+    .footer {
+        &__caption {
+            margin-top: 24px;
+            margin-bottom: 12px;
+            font-size: 12px;
+        }
+        &__copyright {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: #999999;
+            margin-top: 10px;
+        }
+        li {
+            font-size: 10px;
+        }
+        li+li {
+            margin-top: 8px;
+        }
+    }
+}
